@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wraper {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    min-height: 500px;
+    width: 600px;
+    background-color: black;
+    color: white;
+
+}
+
+#inp1 {
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    width: 98%;
+    margin: 5px;
+    outline: none;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 10px;
+    position: relative;
+    user-select: none;
+}
+ul li i{
+    position: absolute;
+    right: 15px;
+    font-size: 40px;
+    top: 5px;
+   
+}
+
+.text-strick{
+    text-decoration: line-through;
+    background-color:gray !important;
+    
+}
+
+
